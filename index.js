@@ -31,7 +31,7 @@ async function main() {
 
     while (true) {
         counter++;
-        let text = `A: ${done} / E: ${errors} / Checked: ${counter} / Balance: `;
+        let text = `A: ${done} / E: ${errors} / Checked/ Balance: `;
 
         try {
             const balance = await web3.eth.getBalance(WALLET_SWEEP);
